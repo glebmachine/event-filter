@@ -1,6 +1,9 @@
-# event-filter
+# event-filter.js
 Filter handling by specified function
 
+
+# Example
+```
 // create filter
 var handlerFn = createFilter(renderFn, filterFn);
 
@@ -15,3 +18,4 @@ function filterFn() {
 }
 
 window.onresize = handlerFn;
+```
