@@ -12,10 +12,11 @@ function renderFn(value) {
   // value - results of filterFn 
 }
 
-// if return value changed, renderFn called
+// if returned value not equal previous value, renderFn will called
 function filterFn() {
   return document.body.clientWidth > 1024;
 }
 
+// assign listener to event
 window.onresize = handlerFn;
 ```
