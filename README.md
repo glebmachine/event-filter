@@ -3,7 +3,7 @@ Filter handling by specified function
 
 
 # Example
-```
+```javascript
 // create filter
 var handlerFn = createFilter(renderFn, filterFn);
 
