@@ -1,6 +1,6 @@
 
-function createFilter(fn, getter){
-  var _value;
+function createFilter(fn, getter, initial){
+  var _value = initial;
 
   if (getter) {
     return function(){
